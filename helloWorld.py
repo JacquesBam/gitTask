@@ -1,5 +1,7 @@
 # Gets input from user
-message = input("Please enter something: ")
+def get_input():
+  '''Gets input from the user'''
+  return input("Please enter something: ")
 
 # Prints user input
-print(message)
+print(get_input())
